@@ -36,6 +36,25 @@ def is_palindrome(s):
     """
     # TODO: 알파벳과 숫자만 남기고 소문자로 변환하세요
     # 힌트: isalnum() 메서드와 lower() 메서드 사용
+    s_list = s[:]
+    rev_list = s[::-1]
+    s_reverse = ''
+    s_copy = ''
+    for str in rev_list :
+        if str.isalnum() :
+            s_reverse += str.lower()
+
+    for str in s_list :
+        if str.isalnum() :
+            s_copy += str.lower()
+
+    if s_copy == s_reverse : 
+        return True
+    else :
+        return False
+
+
+
     pass
     
     # TODO: 정제된 문자열이 회문인지 확인하세요
