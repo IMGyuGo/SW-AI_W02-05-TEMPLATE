@@ -4,6 +4,7 @@
 ipv6 = input()
 ipv6List = ipv6.split(":")
 
+print(ipv6List)
 size = len(ipv6List)
 
 if size == 9 :

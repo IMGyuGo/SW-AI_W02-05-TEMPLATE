@@ -1,6 +1,5 @@
 # SW-AI 컴퓨팅 사고로의 전환 - 레포지토리 템플릿 (Week 2~5)
 
-
 ## 📂 폴더 구조
 
 ```
@@ -33,9 +32,9 @@ SW_AI-W02-05-TEMPLATE/
 이 템플릿을 본인의 GitHub 저장소로 복사합니다:
 
 ```bash
-# 템플릿 클론 후 새 저장소로 초기화 
-git clone <템플릿-저장소-URL> 
-cd <템플릿-저장소-URL> 
+# 템플릿 클론 후 새 저장소로 초기화
+git clone <템플릿-저장소-URL>
+cd <템플릿-저장소-URL>
 rm -rf .git
 git init
 git remote add origin <본인-저장소-URL>
@@ -94,6 +93,7 @@ week2/problem-solving/난이도하_파이썬문법_최댓값_브론즈3.py
 ```
 
 각 파일에는 문제 링크가 주석으로 포함되어 있습니다:
+
 ```python
 # 파이썬 문법 - 최댓값 (백준 브론즈3)
 # 문제 링크: https://www.acmicpc.net/problem/2562

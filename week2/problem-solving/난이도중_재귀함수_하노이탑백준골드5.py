@@ -8,6 +8,8 @@
 
 # 보통 함수 인자는 이렇게 잡음
 
+n = int(input())
+
 def hanoi(n, start, via, end) :
 
   if n == 1 :
@@ -19,3 +21,5 @@ def hanoi(n, start, via, end) :
   print(start, end)
 
   hanoi(n-1, via, start, end)
+
+hanoi(n, 1, 2, 3)
