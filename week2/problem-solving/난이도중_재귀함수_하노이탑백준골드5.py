@@ -7,7 +7,6 @@
 # 3. B에 있던 n-1개를 B에서 C로 옮긴다
 
 # 보통 함수 인자는 이렇게 잡음
-
 n = int(input())
 
 def hanoi(n, start, via, end) :
