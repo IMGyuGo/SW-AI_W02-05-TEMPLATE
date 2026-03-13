@@ -38,12 +38,19 @@ class LinkedList:
         new_node = Node(data)
         
         # TODO: 리스트가 비어있으면 head를 new_node로 설정
+        if self.head is None :
+            self.head = new_node
+            return
         pass
         
         # TODO: 마지막 노드 찾기
+        current = self.head
+        while current.next :
+            current = current.next
         pass
         
         # TODO: 마지막 노드의 next를 new_node로 설정
+        current.next = new_node
         pass
     
     def print_list(self):
@@ -51,9 +58,13 @@ class LinkedList:
         values = []
         
         # TODO: head부터 시작
+        current = self.head
         pass
         
         # TODO: 끝까지 순회하며 값 수집
+        while current :
+            values.append(current.data)
+            current = current.next
         pass
         
         return values
