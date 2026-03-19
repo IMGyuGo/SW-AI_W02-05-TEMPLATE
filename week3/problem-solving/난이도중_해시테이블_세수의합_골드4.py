@@ -18,6 +18,8 @@ for i in range(n) :
     key = group[i] + group[j]
     dic[key] = True
 
+print(dic)
+
 flag = False
 for k in range(n-1, -1, -1) :
   if flag :
