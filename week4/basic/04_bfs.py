@@ -52,6 +52,7 @@ def bfs(graph, start):
     queue.appendleft(start)
     visit = [False] * len(graph)
     visit[start] = True
+    print(visit)
     pass
 
     # TODO: 큐가 빌 때까지 반복
